@@ -17,13 +17,13 @@ function addTask()
             li.appendChild(span);
 
         }
-        inputBox.value= "";
+        inputBox.value == "";
         saveData();
 }
 
 listContainer.addEventListener("click", function(e)
 {
-    if(e.target.tagName== "LI")
+    if(e.target.tagName === "LI")
         {
             e.target.classList.toggle("checked");
             saveData();
