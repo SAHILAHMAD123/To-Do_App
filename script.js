@@ -1,5 +1,5 @@
-const inputBox= document.getElementById("input-box");
-const listContainer= document.getElementById("list-container");
+const inputBox = document.getElementById("input-box");
+const listContainer = document.getElementById("list-container");
 
 function addTask()
 {
@@ -17,7 +17,7 @@ function addTask()
             li.appendChild(span);
 
         }
-        inputBox.value == "";
+        inputBox.value = "";
         saveData();
 }
 
@@ -35,6 +35,13 @@ listContainer.addEventListener("click", function(e)
             }
 },false);
 
+inputBox.addEventListener('keydown',function(e)
+{
+    if(e.key === 'Enter')
+        {
+            addTask();
+        }
+})
 function saveData()
 {
     localStorage.setItem("data", listContainer.innerHTML);
