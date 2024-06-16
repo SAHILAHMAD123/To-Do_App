@@ -9,10 +9,6 @@ Welcome to the To-Do App! This is a simple, user-friendly web application to man
 * **Delete Tasks:** Remove tasks from the list by clicking the '×' button.
 * **Persistent Storage:** Tasks are saved in localStorage, so they remain even after closing or refreshing the browser.
 
-## Demo
-
-[Provide a link or instructions on how to view a demo of your app here]
-
 ## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
@@ -26,7 +22,7 @@ You need a web browser to run this application.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/to-do-app.git
+git clone https://github.com/sahilahmad6569/to-do-app.git
 ```
 
 2. Navigate to the project directory:
@@ -103,5 +99,3 @@ Sahil Ahmad
 ## Acknowledgments
 
 Thanks to all the contributors who helped improve this project.
-
-**Icons from [source]** (Replace `[source]` with the actual source of the icons you used) 
